@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sobo — Product</title>
+<meta name="description" content="Sobo hibiscus ginger tonic — shop the original, Sobo Energy, or Sobo Syrup.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html"><img src="images/sobo-logo.png" alt="Sobo"></a>
+  <nav class="site-nav">
+    <a href="index.html">Home</a>
+    <a href="product.html?variant=classic" aria-current="page">Shop</a>
+    <a href="membership.html">Membership</a>
+  </nav>
+</header>
+
+<main class="product-shell">
+
+  <div>
+    <div class="product-visual" id="productVisual">
+      <img class="logo-mark" src="images/sobo-logo.png" alt="">
+    </div>
+    <p class="product-id" id="productId">SKU —</p>
+  </div>
+
+  <div class="product-info">
+    <p class="eyebrow" id="productEyebrow">Original</p>
+    <h1 id="productName">Sobo</h1>
+
+    <div class="price-block">
+      <span class="price" id="productPrice">$6.50</span>
+      <span class="per" id="productPer">per bottle</span>
+    </div>
+
+    <p class="product-desc" id="productDesc">
+      The base tonic — hibiscus and ginger, hot or cold.
+    </p>
+
+    <div class="size-select" id="sizeSelect" role="group" aria-label="Choose size"></div>
+
+    <div class="spec-block">
+      <h3>Ingredients</h3>
+      <ul id="productIngredients"></ul>
+    </div>
+
+    <div class="spec-block">
+      <h3>Details</h3>
+      <ul id="productDetails"></ul>
+    </div>
+
+    <div class="checkout-row">
+      <a class="btn solid-dark" id="checkoutBtn" href="#" target="_blank" rel="noopener">
+        Checkout with Stripe &rarr;
+      </a>
+      <a class="btn outline" href="membership.html">See membership pricing</a>
+    </div>
+
+    <nav class="variant-switch" id="variantSwitch" aria-label="Other variants"></nav>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <img src="images/sobo-logo.png" alt="Sobo">
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="membership.html">Membership</a>
+    <a href="mailto:sobo@culinarycraft.space">Contact</a>
+  </div>
+  <span>&copy; 2026 Sobo</span>
+</footer>
+
+<script src="js/product-data.js"></script>
+<script src="js/product.js"></script>
+</body>
+</html>
